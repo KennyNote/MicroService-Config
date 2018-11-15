@@ -1,0 +1,19 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: MicroService-Config-dev
+---
+spring:
+  profiles: test
+  application:
+    name: MicroService-Config-test
+---
+spring:
+  profiles: work
+  application:
+    name: MicroService-Config-work
